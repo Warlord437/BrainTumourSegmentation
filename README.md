@@ -25,4 +25,12 @@ This project includes:
 - **Source**: [Kaggle LGG MRI Segmentation](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 - **Description**: T1-weighted MRI scans with corresponding tumor masks
 
-Please place the dataset under:
+
+---
+
+## 🧪 Installation
+
+```bash
+git clone https://github.com/your-username/brain-tumor-unet.git
+cd brain-tumor-unet
+pip install -r requirements.txt
