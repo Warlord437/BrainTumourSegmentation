@@ -1,41 +1,28 @@
-Brain Tumor Segmentation with U-Net
-This project implements an end-to-end pipeline for brain tumor segmentation from MRI images using the U-Net deep learning architecture. It leverages TensorFlow and Keras to train, validate, and test a model that can automatically detect and segment tumor regions in brain MRIs.
-<br>
+# 🧠 Brain Tumor Segmentation with U-Net
 
-📋 Table of Contents
-Overview
+This repository contains a full implementation of a **brain tumor segmentation pipeline using U-Net**. The project demonstrates how to segment tumor regions from brain MRI scans using deep learning.
 
-Dataset
+![UNet Architecture](https://i.imgur.com/lKZGO0C.png)
 
-Project Structure
+---
 
-Installation & Setup
+## 📌 Project Overview
 
-Usage
+This project includes:
+- Preprocessing and diagnosis label creation
+- Visualization of MRI scans and masks
+- Splitting data into train/val/test
+- Custom data generators with augmentation
+- U-Net model architecture
+- Custom loss functions (Dice, BCE, IoU)
+- Training with callbacks (EarlyStopping, ReduceLRO)
+- Evaluation and visualization of predictions
 
-Results & Visualization
+---
 
-Model Architecture
+## 📁 Dataset
 
-Citations & References
+- **Source**: [Kaggle LGG MRI Segmentation](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- **Description**: T1-weighted MRI scans with corresponding tumor masks
 
-🧠 Overview
-Accurate and fast brain tumor segmentation is critical for effective diagnosis and treatment planning. This repository demonstrates a U-Net-based segmentation workflow, including:
-
-Data preprocessing and visualization
-
-Data augmentation
-
-Model building (U-Net)
-
-Custom loss functions (Dice, IoU, BCE-Dice)
-
-Model training, validation, and testing
-
-Visual inspection of predictions
-
-📊 Dataset
-Source: Kaggle LGG MRI Segmentation
-
-Description: T1-weighted brain MRIs with corresponding manually-annotated tumor masks.
-
+Please place the dataset under:
